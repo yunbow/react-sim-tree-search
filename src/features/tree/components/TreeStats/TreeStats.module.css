@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.value {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
